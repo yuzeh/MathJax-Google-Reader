@@ -1,0 +1,23 @@
+{
+  "name": "MathJax Google Reader",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Renders MathJax on Google Reader",
+  "permissions": [
+    "http://www.google.com/reader/*",
+    "https://www.google.com/reader/*",
+    "http://ai.stanford.edu/~yuze/*",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.google.com/reader/*",
+        "https://www.google.com/reader/*",
+      ],
+      "css": [ ],
+      "js": [ "load.js" ],
+      "run_at": "document_end"
+    }
+  ]
+}
