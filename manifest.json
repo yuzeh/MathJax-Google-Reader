@@ -13,7 +13,7 @@
     {
       "matches": [
         "http://www.google.com/reader/*",
-        "https://www.google.com/reader/*",
+        "https://www.google.com/reader/*"
       ],
       "css": [ ],
       "js": [ "load.js" ],
